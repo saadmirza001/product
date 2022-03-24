@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edvantage</title>
+  </head>
+  <body>
+    <!--Menu-->
+
+    <div class="navbar">
+      <div class="container">
+        <!-- add logo class -->
+        <a class="logo" href="#">Edvantage<span>Code</span></a>
+        <nav>
+          <ul class="primary-nav">
+            <!--Add a class current-->
+            <li><a class="current" href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+
+          <ul class="secondary-nav">
+            <li><a href="#">Contact</a></li>
+            <li class="btn"><a href="#">Go Premium</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!--Hero Section-->
+
+    <section class="hero">
+      <div class="container">
+        <div class="left-col">
+          <p class="subhead">Its awesome &amp unfair</p>
+          <h1>Title area That makes sense</h1>
+          <div class="primary-cta">
+            <!--Add class for button-->
+            <a href="#" class="primary-cta">Try for free</a>
+            <a href="#" class="watch-cta">
+              <!--Write the "Watch a video"-->
+              <img src="watch.jpeg" alt="watch a video" />Watch a Video
+            </a>
+            <!-- <img src="illustration.jpeg" class="hero-img" alt="hero image" /> -->
+          </div>
+        </div>
+        <img src="illustration.jpeg" class="hero-img" alt="hero image" />
+      </div>
+    </section>
+
+    <!--Features Section-->
+
+    <section class="features-section">
+      <div class="container">
+        <ul class="features-list">
+          <li>Exclusive to the Campus Leads</li>
+          <li>Exclusive to the incubatees</li>
+          <li>Personal development</li>
+          <li>Financial Development</li>
+          <li>Business Development</li>
+          <li>And many others</li>
+        </ul>
+        <img src="photo.jpeg" alt="HumnN" />
+      </div>
+    </section>
+
+    <!--Testimonial Section-->
+
+    <section class="testimonials-section">
+      <div class="container">
+        <ul>
+          <li>
+            <img src="human.jpeg" alt="human" />
+            <blockquote>
+              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore"
+            </blockquote>
+            <!--Instead of using h2 we can use "cite" tag serves more meaningful purpose-->
+            <!-- <h2>John Doe</h2> -->
+            <cite>John Doe</cite>
+          </li>
+          <li>
+            <img src="human.jpeg" alt="human" />
+            <blockquote>
+              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore"
+            </blockquote>
+            <!-- <h2>John Doe</h2> -->
+            <cite>John Doe</cite>
+          </li>
+          <li>
+            <img src="human.jpeg" alt="human" />
+            <blockquote>
+              "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+              nonumy eirmod tempor invidunt ut labore et dolore"
+            </blockquote>
+            <!-- <h2>John Doe</h2> -->
+            <cite>John Doe</cite>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!--Contact Section-->
+
+    <section class="contact-section">
+      <div class="container">
+        <!--Changing the below class to contact-left to avoid conflict since we used similarly in above -->
+        <div class="contact-left">
+          <h2>Contact Form</h2>
+
+          <!--Copy the below form code as it is will explain it in session-->
+          <form action="">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" />
+
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+
+            <input
+              type="submit"
+              class="send-message-cta"
+              value="Send message"
+            />
+          </form>
+        </div>
+        <!--Changing the below class to contact-right-->
+        <div class="contact-rigth">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.2729519177633!2d78.44726461530347!3d17.398683807057605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb979c46fb2f09%3A0x5f03837e29755b4b!2sEdVenture%20Park!5e0!3m2!1sen!2sin!4v1648141909599!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
